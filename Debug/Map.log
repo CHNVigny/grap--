@@ -1,19 +1,19 @@
-﻿生成启动时间为 2015/12/11 22:28:53。
+﻿生成启动时间为 2015/12/15 15:59:53。
      1>项目“E:\GitHub\Map\Map.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main2.c
-         main2.c
-     1>e:\github\map\main2.c(283): warning C4013: “FirstVex”未定义；假设外部返回 int
-     1>e:\github\map\main2.c(283): warning C4013: “NextVex”未定义；假设外部返回 int
-     1>e:\github\map\main2.c(278): warning C4477: 'printf' : format string '%3c' requires an argument of type 'int', but variadic argument 1 has type 'vertex'
-     1>e:\github\map\main2.c(287): warning C4477: 'printf' : format string '%3c' requires an argument of type 'int', but variadic argument 1 has type 'vertex'
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\github\map\main.cpp(118): warning C4101: “i”: 未引用的局部变量
+     1>e:\github\map\main.cpp(140): warning C4101: “j”: 未引用的局部变量
+     1>e:\github\map\main.cpp(183): warning C4101: “j”: 未引用的局部变量
+     1>e:\github\map\main.cpp(219): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>e:\github\map\main.cpp(136): warning C4715: “sc_map::deep1”: 不是所有的控件路径都返回值
+     1>e:\github\map\main.cpp(114): warning C4715: “sc_map::pop”: 不是所有的控件路径都返回值
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.lib" /MACHINE:X86 Debug\main2.obj
-     1>main2.obj : error LNK2019: 无法解析的外部符号 _FirstVex，该符号在函数 _bfsgraph_no_in 中被引用
-     1>main2.obj : error LNK2019: 无法解析的外部符号 _NextVex，该符号在函数 _bfsgraph_no_in 中被引用
-     1>E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.exe : fatal error LNK1120: 2 个无法解析的外部命令
-     1>已完成生成项目“E:\GitHub\Map\Map.vcxproj”(Rebuild 个目标)的操作 - 失败。
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.lib" /MACHINE:X86 Debug\main.obj
+         Map.vcxproj -> E:\C_ProgramingLanguage\Homeworks\shujujiegou\Project1\Debug\Map.exe
+     1>已完成生成项目“E:\GitHub\Map\Map.vcxproj”(Rebuild 个目标)的操作。
 
-生成失败。
+已成功生成。
 
-已用时间 00:00:00.65
+已用时间 00:00:04.80
